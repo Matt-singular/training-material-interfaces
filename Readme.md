@@ -8,7 +8,7 @@ Facilitate loose coupling between components of a system by allowing interaction
 ### 2. Some coding examples
 #### Example 1
 ##### No interfaces
-The services are tightly coupled here, meaning changes to the Add Operation would likely also require changes to the Calculator.  This is [bad practice](#^SOLID2) and can make refactoring in real-world systems a difficult process.
+The services are tightly coupled here, meaning changes to the Add Operation would likely also require changes to the Calculator.  This is [bad practice](#c-the-openclosed-solid-principle) and can make refactoring in real-world systems a difficult process.
 
 ![Calculator-Basic](Resources/Calculator-Basic.svg)
 
