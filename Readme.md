@@ -16,7 +16,7 @@ The services are tightly coupled here, meaning changes to the Add Operation woul
 ##### Basic Interface Usage
 The services are loosely coupled since the Calculator relies on an interface.  The actual underlying add operation service can change completely without needing any changes to the calculator. 
 
-![[Graduates 2024/Resources/Calculator-AddOperationBasic.svg]]
+![[Resources/Calculator-AddOperationBasic.svg]]
 
 #### Example 3
 ##### Strategy Design pattern
