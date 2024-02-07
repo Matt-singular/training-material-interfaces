@@ -54,11 +54,11 @@ By relying on interfaces, you separate concerns and ensure that each class or mo
 #### (c) The "Open/Closed" (S**O**LID) principle
 Open for extension, but closed for modification. 
 
-When a service directly depends on concrete implementations, any change to those implementations may require modifications to the dependent services. ^SOLID2
+When a service directly depends on concrete implementations, any change to those implementations may require modifications to the dependent services.
 
 By depending on interfaces, you can introduce new implementations without modifying existing code.
 
-(think back to [Example 3](#Example%203) and how easy it would be to introduce new operations without having to modify existing functionality)
+(think back to [Example 3](#example-3) and how easy it would be to introduce new operations without having to modify existing functionality)
 
 #### (d) The "Interface Segregation" (SOL**I**D) principle
 You should rely on many tailored interfaces rather than one monolithic one.
