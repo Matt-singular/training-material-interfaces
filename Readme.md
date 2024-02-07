@@ -10,19 +10,20 @@ Facilitate loose coupling between components of a system by allowing interaction
 ##### No interfaces
 The services are tightly coupled here, meaning changes to the Add Operation would likely also require changes to the Calculator.  This is [bad practice](#^SOLID2) and can make refactoring in real-world systems a difficult process.
 
-![[Resources/Calculator-Basic.svg]]
+![Calculator-Basic](Resources/Calculator-Basic.svg)
 
 #### Example 2
 ##### Basic Interface Usage
 The services are loosely coupled since the Calculator relies on an interface.  The actual underlying add operation service can change completely without needing any changes to the calculator. 
 
-![[Resources/Calculator-AddOperationBasic.svg]]
+![Calculator-AddOperationBasic](Resources/Calculator-AddOperationBasic.svg)
+
 
 #### Example 3
 ##### Strategy Design pattern
 Interfaces are much more powerful than I have given them credit as they also facilitate many different design patterns.
 
-![[Resources/Calculator-StrategyPattern.svg]]
+![Calculator-StrategyPattern](Resources/Calculator-StrategyPattern.svg)
 
 ### 3. Some coding terminology and Principles
 There are some fundamental object-oriented programming (OOP) concepts/principles where interfaces play a pivotal role.
